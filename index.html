@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled aria-label="Display da calculadora" />
+        <div class="buttons">
+            <button class="button" data-value="7" aria-label="Número 7">7</button>
+            <button class="button" data-value="8" aria-label="Número 8">8</button>
+            <button class="button" data-value="9" aria-label="Número 9">9</button>
+            <button class="button operator" data-value="+" aria-label="Operador de adição">+</button>
+            <button class="button" data-value="4" aria-label="Número 4">4</button>
+            <button class="button" data-value="5" aria-label="Número 5">5</button>
+            <button class="button" data-value="6" aria-label="Número 6">6</button>
+            <button class="button operator" data-value="-" aria-label="Operador de subtração">-</button>
+            <button class="button" data-value="1" aria-label="Número 1">1</button>
+            <button class="button" data-value="2" aria-label="Número 2">2</button>
+            <button class="button" data-value="3" aria-label="Número 3">3</button>
+            <button class="button operator" data-value="*" aria-label="Operador de multiplicação">*</button>
+            <button class="button" data-value="0" aria-label="Número 0">0</button>
+            <button class="button clear" data-value="C" aria-label="Limpar tela">C</button>
+            <button class="button equal" data-value="=" aria-label="Resultado">=</button>
+            <button class="button operator" data-value="/" aria-label="Operador de divisão">/</button>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footer-text">Desenvolvido por Arthur Lacerda</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/arthurdlacerda/" target="_blank" title="LinkedIn">
+                <img src="linkedin.png" alt="LinkedIn" class="social-icon">
+            </a>
+            <a href="https://github.com/ArthurLacerdaa" target="_blank" title="GitHub">
+                <img src="git.png" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.instagram.com/arthurdlacerda/" target="_blank" title="Instagram">
+                <img src="insta.png" alt="Instagram" class="social-icon">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
